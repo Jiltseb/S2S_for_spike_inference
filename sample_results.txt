@@ -1,0 +1,31 @@
+* Example results of test_s2s.py with 5 test datasets of spikefinder contest (default max_len)
+
+*dataset 1
+corr: 0.6129772432273513
+rank: 0.4162530574362345
+auc: 0.8957699538897638
+
+*dataset 2
+corr: 0.9128399679203716
+rank: 0.8205615376538884
+auc: 0.9068933492214647
+
+*dataset 3
+corr: 0.592579584367679
+rank: 0.533602017964492
+auc: 0.8794280069567515
+
+*dataset 4
+corr: 0.45063920020695986
+rank: 0.2755242301011322
+auc: 0.6987058759759578
+
+*dataset 5
+corr: 0.6178081374563344
+rank: 0.5796976939303236
+auc: 0.8777902518079825
+
+Average scores:
+Corr: 0.63736883, rank: 0.52512771, auc: 0.85171749
+
+Results are consistent with the results shown in the PLOS paper.
