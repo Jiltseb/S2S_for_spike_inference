@@ -19,9 +19,9 @@ Tested with keras on tensorflow background (on TF1 and TF2) and python 3.8.
 
 		python test_s2s.py model_dir/modelname.h5
 
-Alternatively, the test script can be edited just to predict the spikes given a calcium signal. For this, create a load_dataset function for the given calcium signal in dataset.py and run the test script until predictions.
+Alternatively, the test script can be edited to predict the spikes given a calcium signal. For this, write a dataset loading function for the given calcium signal in and run the test script until predictions.
 
-If you find our work useful, please cite the following publication:
+If you find this work useful, please cite the following publication:
 
 
 	@article{sebastian2021signal,
