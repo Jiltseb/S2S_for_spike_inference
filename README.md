@@ -5,17 +5,17 @@ This repository contains training and testing scripts of the signal to signal ne
 
 Tested with keras on tensorflow background (on TF1 and TF2) and python 3.8.
 
-  # install python dependencies
+	# install python dependencies
 
 pip -r requirements.txt
 
-  # run trainingscript and save the model in model_dir
+	# run trainingscript and save the model in model_dir
 
 python train_s2s.py model_dir
 
 *Optionally set the parameters in config file: config.py
 
-  # evaluate the model stored in model_dir
+	# evaluate the model stored in model_dir
 
 python test_s2s.py model_dir/modelname.h5
 
