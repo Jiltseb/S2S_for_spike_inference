@@ -7,7 +7,7 @@ Tested with keras on tensorflow background (on TF1 and TF2) and python 3.8.
 
  1. install python dependencies
 
-		pip -r install requirements.txt
+		pip install -r requirements.txt
 
  2. run trainingscript and save the model in model_dir
 
